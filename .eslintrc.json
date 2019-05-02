@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es6": true
   },
 
   "plugins": ["react", "prettier"],
@@ -43,6 +44,7 @@
     "prefer-promise-reject-errors": "error",
     "no-cond-assign": "error",
     "no-throw-literal": "error",
+    "no-under": "error",
 
     "react/forbid-prop-types": "error",
     "react/jsx-closing-bracket-location": "error",
